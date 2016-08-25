@@ -68,6 +68,7 @@ h4{
 	padding: 15px 0;
 	border:none;
 	.navbar-toggle{
+		font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 		color:#fff;
 		background-color:#fed136;
 		border:none;
@@ -419,7 +420,7 @@ br{
 						color:#000;
 						transition: all 1s ease-out;
 					}
-					&:hover:before{
+					&:before{
 						background-color: #eee;
 						color:#000;
 						transition: all 1s ease-out;

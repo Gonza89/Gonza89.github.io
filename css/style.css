@@ -60,6 +60,7 @@ h4 {
   padding: 15px 0;
   border: none; }
   .navbar-custom .navbar-toggle {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
     background-color: #fed136;
     border: none; }
@@ -338,7 +339,7 @@ br {
         background-color: #eee;
         color: #000;
         transition: all 1s ease-out; }
-      #footer ul li a:hover:before {
+      #footer ul li a:before {
         background-color: #eee;
         color: #000;
         transition: all 1s ease-out; }
