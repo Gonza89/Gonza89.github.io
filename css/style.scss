@@ -63,9 +63,10 @@ h4{
 	}
 }
 
+
 .navbar-custom{
 	background-color: #333;
-	padding: 15px 0;
+	padding: 15px 15px;
 	border:none;
 	.navbar-toggle{
 		font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -87,13 +88,22 @@ h4{
 		&:hover, &:focus{
 			color:#ffc600;
 		}
-		@media screen and (max-width: 323px) {
+		@media screen and (max-width: 351px) {
 			font-size: 22px;
 		}
 	}
 	#navbar-bootstrap{
 		ul{
-			li{
+			.active{
+				a{
+					background-color: #fed136;
+					border-radius:3px;
+					&:hover{
+						color:#fff;
+					}
+				}
+			}
+			li{				
 				a{
 					font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 					text-transform: uppercase;
@@ -102,13 +112,12 @@ h4{
 					letter-spacing: 1px;
 					transition: all 1s ease;
 					&:hover{
-						color:#fed136;
+						color:#fff;
 					}
 				}
 			}
 		}
 	}
-
 }
 
 header{

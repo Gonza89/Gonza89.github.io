@@ -57,7 +57,7 @@ h4 {
 
 .navbar-custom {
   background-color: #333;
-  padding: 15px 0;
+  padding: 15px 15px;
   border: none; }
   .navbar-custom .navbar-toggle {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -75,9 +75,14 @@ h4 {
     text-transform: capitalize; }
     .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus {
       color: #ffc600; }
-    @media screen and (max-width: 323px) {
+    @media screen and (max-width: 351px) {
       .navbar-custom .navbar-brand {
         font-size: 22px; } }
+  .navbar-custom #navbar-bootstrap ul .active a {
+    background-color: #fed136;
+    border-radius: 3px; }
+    .navbar-custom #navbar-bootstrap ul .active a:hover {
+      color: #fff; }
   .navbar-custom #navbar-bootstrap ul li a {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
@@ -86,7 +91,7 @@ h4 {
     letter-spacing: 1px;
     transition: all 1s ease; }
     .navbar-custom #navbar-bootstrap ul li a:hover {
-      color: #fed136; }
+      color: #fff; }
 
 header {
   background-image: url(../img/header-bg.jpg);
@@ -349,5 +354,3 @@ br {
     transition: all 1s ease; }
     #footer .link:hover {
       font-weight: 500; }
-
-/*# sourceMappingURL=style.css.map */
